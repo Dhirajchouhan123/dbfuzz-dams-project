@@ -1,24 +1,41 @@
 # DBFuzz Implementation on DAMS
 
 ## Team Members
-Sandeep Khachariya - 2023UCP1628
-Dhiraj Chouhan - 2023UCP1591
+- Sandeep Khachariya (2023UCP1628)
+- Dhiraj Chouhan (2023UCP1591)
+
+---
 
 ## Project Overview
-Implemented DBFuzz for Stored XSS testing on Doctor Appointment Management System.
+This project implements **DBFuzz** on a vulnerable web application called **Doctor Appointment Management System (DAMS)**.
 
-## Features
-- Docker deployment
-- Database setup
-- Automated login
-- Session extraction
-- URL crawling
-- Endpoint discovery
-- Fuzz testing
+The objective was to:
+- Deploy DAMS using Docker
+- Configure database
+- Automate login
+- Crawl authenticated pages
+- Perform fuzz testing
+- Detect vulnerabilities/errors
 
-## Run Command
-pipenv run python dbfuzz.py --config docker/dams/config_doctor.ini
+---
 
-## Login Credentials
-Email: anu@gmail.com
-Password: Test@123
+## Technologies Used
+- Python
+- Selenium
+- Docker
+- MariaDB
+- Apache
+- phpMyAdmin
+- DBFuzz
+- BlackWidow Crawler
+
+---
+
+## Project Workflow
+
+### 1. Docker Deployment
+Started containers using:
+
+```bash
+cd docker/dams
+sudo docker-compose up -d
