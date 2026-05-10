@@ -1,0 +1,47 @@
+version: "3.1"
+services:
+  web:
+    env_file:
+      - env-variables.env
+    # image: php:7.4-apache
+    build:
+      context: ./php-apache
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./dbfuzz:/var/www/html
+    links:
+      - 'mariadb'
+    networks:
+      - web-db-net
+  mariadb:
+    env_file:
+      - env-variables.env
+    image: "mariadb:10.5"
+    ports:
+      - 3307:3306
+    volumes:
+      - ./mariadb:/var/lib/mysql
+    #   - "/var/lib/mysql/data:${MARIADB_DATA_DIR}"
+    #   - "/var/lib/mysql/logs:${MARIADB_LOG_DIR}"
+    #   - /var/docker/mariadb/conf:/etc/mysql
+    # restart: 'always'
+    # environment:
+    #   MYSQL_ROOT_PASSWORD: "notSecureChangeMe"
+    #   MYSQL_DATABASE: "${MYSQL_DATABASE}"
+    #   MYSQL_USER: "${MYSQL_USER}"
+    #   MYSQL_PASSWORD: "${MYSQL_PASSWORD}"
+    networks:
+      - web-db-net
+  phpmyadmin:
+    image: phpmyadmin
+    # restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_ARBITRARY=1
+    networks:
+      - web-db-net
+networks:
+  web-db-net:

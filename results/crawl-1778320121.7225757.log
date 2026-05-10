@@ -1,0 +1,1321 @@
+2026-05-09:15:19:02	root	INFO	[Classes.py:569]	Init crawl on http://localhost/dams/doctor/dashboard.php
+2026-05-09:15:19:02	root	INFO	[Functions.py:175]	Check edge: [get] ROOTREQ -(get None[False])-> [get] http://localhost/dams/doctor/dashboard.php
+2026-05-09:15:19:02	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:02	root	INFO	[Functions.py:221]	Follow edge: [get] ROOTREQ -(get None[False])-> [get] http://localhost/dams/doctor/dashboard.php
+2026-05-09:15:19:09	root	INFO	[Classes.py:1655]	Current url: http://localhost/dams/doctor/dashboard.php
+2026-05-09:15:19:09	root	INFO	[Classes.py:1656]	Crawl (edge): [get] ROOTREQ -(get None[False])-> [get] http://localhost/dams/doctor/dashboard.php
+2026-05-09:15:19:09	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 33}
+2026-05-09:15:19:09	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 26.799999999813735}
+2026-05-09:15:19:10	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.09999999962747097}
+2026-05-09:15:19:10	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 21.399999999441206}
+2026-05-09:15:19:10	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 9.800000000745058}
+2026-05-09:15:19:10	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 1.8999999994412065}
+2026-05-09:15:19:10	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 18.40000000037253}
+2026-05-09:15:19:10	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 28.59999999962747}
+2026-05-09:15:19:13	root	DEBUG	[Urls.py:120]	URLs from extract_urls {[get] http://localhost/dams/doctor/appointment-bwdates.php, [get] http://localhost/dams/doctor/dashboard.php, [get] http://localhost/dams/doctor/change-password.php, [javascript] javascript:void(0), [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, [get] http://localhost/dams/doctor/dashboard.php#menubar-customizer, [get] http://localhost/dams/doctor/dashboard.php#navbar-customizer, [get] http://localhost/dams/doctor/approved-appointment.php, [get] http://localhost/dams/doctor/logout.php, [get] http://localhost/dams/doctor/search.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, [get] http://localhost/dams/doctor/cancelled-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php, [get] http://localhost/dams/doctor/profile.php, [get] http://localhost/dams/doctor/dashboard.php#, [get] http://localhost/dams/doctor/all-appointment.php}
+2026-05-09:15:19:14	root	INFO	[Functions.py:1003]	set_form_values got 0
+2026-05-09:15:19:14	root	INFO	[Functions.py:1021]	set_form_values returned 0
+2026-05-09:15:19:14	root	INFO	[Classes.py:1804]	Adding requests from URLs
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [javascript] javascript:void(0) 
+2026-05-09:15:19:14	root	INFO	[Functions.py:287]	Unsure about method javascript, will allow.
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php#menubar-customizer 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php#navbar-customizer 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/logout.php 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	DEBUG	[Functions.py:337]	Different origins http://localhost/dams/doctor/dashboard.php and http://localhost/dams/doctor/logout.php
+2026-05-09:15:19:14	root	INFO	[Classes.py:1812]	Not allowed to add edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/logout.php
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php# 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Classes.py:1814]	Adding requests from froms
+2026-05-09:15:19:14	root	INFO	[Classes.py:1825]	Adding requests from events
+2026-05-09:15:19:14	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:19:14	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:19:14	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:19:14	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:19:14	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:19:14	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:19:14	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:19:14	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:19:14	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:19:14	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:19:14	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:19:14	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:19:14	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:19:14	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:19:14	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:19:14	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:19:14	root	INFO	[Classes.py:1835]	Not allowed to add edge: [get] http://localhost/dams/doctor/dashboard.php -(event Event(onerror, /html/body/script[11])[False])-> [event] http://localhost/dams/doctor/dashboard.php
+2026-05-09:15:19:14	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:19:14	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:19:14	root	INFO	[Classes.py:1837]	Adding requests from iframes
+2026-05-09:15:19:14	root	INFO	[Classes.py:1849]	Adding requests from ui_forms
+2026-05-09:15:19:14	root	INFO	[Classes.py:643]	(DBFUZZ)REC CRAWL DONE
+2026-05-09:15:19:14	root	INFO	[Functions.py:175]	Check edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/search.php
+2026-05-09:15:19:14	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:14	root	INFO	[Functions.py:221]	Follow edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/search.php
+2026-05-09:15:19:22	root	INFO	[Classes.py:1655]	Current url: http://localhost/dams/doctor/search.php
+2026-05-09:15:19:22	root	INFO	[Classes.py:1656]	Crawl (edge): [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/search.php
+2026-05-09:15:19:23	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 33}
+2026-05-09:15:19:24	root	DEBUG	[Urls.py:120]	URLs from extract_urls {[get] http://localhost/dams/doctor/appointment-bwdates.php, [get] http://localhost/dams/doctor/search.php#menubar-customizer, [get] http://localhost/dams/doctor/dashboard.php, [get] http://localhost/dams/doctor/change-password.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, [javascript] javascript:void(0), [get] http://localhost/dams/doctor/search.php#, [get] http://localhost/dams/doctor/search.php#navbar-customizer, [get] http://localhost/dams/doctor/approved-appointment.php, [get] http://localhost/dams/doctor/logout.php, [get] http://localhost/dams/doctor/search.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, [get] http://localhost/dams/doctor/cancelled-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php, [get] http://localhost/dams/doctor/profile.php, [get] http://localhost/dams/doctor/all-appointment.php}
+2026-05-09:15:19:24	root	INFO	[Functions.py:1003]	set_form_values got 0
+2026-05-09:15:19:24	root	INFO	[Functions.py:1021]	set_form_values returned 0
+2026-05-09:15:19:24	root	INFO	[Classes.py:1804]	Adding requests from URLs
+2026-05-09:15:19:24	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:19:24	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:24	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:19:24	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php#menubar-customizer 
+2026-05-09:15:19:24	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:24	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:19:24	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:24	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:19:24	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:19:24	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:24	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:19:24	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102 
+2026-05-09:15:19:24	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:24	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, already added
+2026-05-09:15:19:24	root	INFO	[Classes.py:1806]	from URLs [javascript] javascript:void(0) 
+2026-05-09:15:19:24	root	INFO	[Functions.py:287]	Unsure about method javascript, will allow.
+2026-05-09:15:19:24	root	INFO	[Classes.py:135]	failed to add node [javascript] javascript:void(0), already added
+2026-05-09:15:19:24	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:19:24	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:24	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php#navbar-customizer 
+2026-05-09:15:19:24	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:24	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:19:24	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:24	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:19:24	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/logout.php 
+2026-05-09:15:19:24	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:24	root	DEBUG	[Functions.py:337]	Different origins http://localhost/dams/doctor/dashboard.php and http://localhost/dams/doctor/logout.php
+2026-05-09:15:19:24	root	INFO	[Classes.py:1812]	Not allowed to add edge: [get] http://localhost/dams/doctor/search.php -(get None[False])-> [get] http://localhost/dams/doctor/logout.php
+2026-05-09:15:19:24	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php 
+2026-05-09:15:19:24	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:24	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:19:24	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873 
+2026-05-09:15:19:24	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:25	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, already added
+2026-05-09:15:19:25	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:19:25	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:25	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:19:25	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:19:25	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:25	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:19:25	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:19:25	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:25	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:19:25	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:19:25	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:25	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:19:25	root	INFO	[Classes.py:1814]	Adding requests from froms
+2026-05-09:15:19:25	root	INFO	[Classes.py:1825]	Adding requests from events
+2026-05-09:15:19:25	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:19:25	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:19:25	root	INFO	[Classes.py:1835]	Not allowed to add edge: [get] http://localhost/dams/doctor/search.php -(event Event(onerror, /html/head/link[10])[False])-> [event] http://localhost/dams/doctor/search.php
+2026-05-09:15:19:25	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:19:25	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:19:25	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:19:25	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:19:25	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:19:25	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:19:25	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:19:25	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:19:25	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:19:25	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:19:25	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:19:25	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:19:25	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:19:25	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:19:25	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:19:25	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:19:25	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:19:25	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:19:25	root	INFO	[Classes.py:1837]	Adding requests from iframes
+2026-05-09:15:19:25	root	INFO	[Classes.py:1849]	Adding requests from ui_forms
+2026-05-09:15:19:25	root	INFO	[Classes.py:643]	(DBFUZZ)REC CRAWL DONE
+2026-05-09:15:19:25	root	INFO	[Functions.py:175]	Check edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/profile.php
+2026-05-09:15:19:25	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:25	root	INFO	[Functions.py:221]	Follow edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/profile.php
+2026-05-09:15:19:34	root	INFO	[Classes.py:1655]	Current url: http://localhost/dams/doctor/profile.php
+2026-05-09:15:19:34	root	INFO	[Classes.py:1656]	Crawl (edge): [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/profile.php
+2026-05-09:15:19:35	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 33}
+2026-05-09:15:19:35	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.7999999998137355}
+2026-05-09:15:19:35	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 32.40000000037253}
+2026-05-09:15:19:35	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 32.80000000074506}
+2026-05-09:15:19:35	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.10000000055879354}
+2026-05-09:15:19:35	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 1.6000000005587935}
+2026-05-09:15:19:35	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.20000000018626451}
+2026-05-09:15:19:35	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.10000000055879354}
+2026-05-09:15:19:35	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.10000000055879354}
+2026-05-09:15:19:35	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.10000000055879354}
+2026-05-09:15:19:35	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 32}
+2026-05-09:15:19:39	root	DEBUG	[Urls.py:120]	URLs from extract_urls {[get] http://localhost/dams/doctor/appointment-bwdates.php, [get] http://localhost/dams/doctor/profile.php#navbar-customizer, [get] http://localhost/dams/doctor/dashboard.php, [get] http://localhost/dams/doctor/change-password.php, [javascript] javascript:void(0), [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, [get] http://localhost/dams/doctor/approved-appointment.php, [get] http://localhost/dams/doctor/logout.php, [get] http://localhost/dams/doctor/search.php, [get] http://localhost/dams/doctor/profile.php#menubar-customizer, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, [get] http://localhost/dams/doctor/cancelled-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php, [get] http://localhost/dams/doctor/profile.php, [get] http://localhost/dams/doctor/profile.php#, [get] http://localhost/dams/doctor/all-appointment.php}
+2026-05-09:15:19:40	root	INFO	[Functions.py:1003]	set_form_values got 0
+2026-05-09:15:19:40	root	INFO	[Functions.py:1021]	set_form_values returned 0
+2026-05-09:15:19:40	root	INFO	[Classes.py:1804]	Adding requests from URLs
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php#navbar-customizer 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [javascript] javascript:void(0) 
+2026-05-09:15:19:40	root	INFO	[Functions.py:287]	Unsure about method javascript, will allow.
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [javascript] javascript:void(0), already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/logout.php 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	DEBUG	[Functions.py:337]	Different origins http://localhost/dams/doctor/dashboard.php and http://localhost/dams/doctor/logout.php
+2026-05-09:15:19:40	root	INFO	[Classes.py:1812]	Not allowed to add edge: [get] http://localhost/dams/doctor/profile.php -(get None[False])-> [get] http://localhost/dams/doctor/logout.php
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php#menubar-customizer 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php# 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1814]	Adding requests from froms
+2026-05-09:15:19:40	root	INFO	[Classes.py:1825]	Adding requests from events
+2026-05-09:15:19:40	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:19:40	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:19:40	root	INFO	[Classes.py:1835]	Not allowed to add edge: [get] http://localhost/dams/doctor/profile.php -(event Event(onerror, /html/head/link[10])[False])-> [event] http://localhost/dams/doctor/profile.php
+2026-05-09:15:19:40	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:19:40	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:19:40	root	INFO	[Classes.py:1837]	Adding requests from iframes
+2026-05-09:15:19:40	root	INFO	[Classes.py:1849]	Adding requests from ui_forms
+2026-05-09:15:19:40	root	INFO	[Classes.py:643]	(DBFUZZ)REC CRAWL DONE
+2026-05-09:15:19:40	root	INFO	[Functions.py:175]	Check edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/change-password.php
+2026-05-09:15:19:40	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:19:40	root	INFO	[Functions.py:221]	Follow edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/change-password.php
+2026-05-09:15:20:14	root	INFO	[Classes.py:1655]	Current url: http://localhost/dams/doctor/change-password.php
+2026-05-09:15:20:14	root	INFO	[Classes.py:1656]	Crawl (edge): [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/change-password.php
+2026-05-09:15:20:14	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 33}
+2026-05-09:15:20:14	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 14}
+2026-05-09:15:20:14	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 30}
+2026-05-09:15:20:15	root	INFO	[Functions.py:1066]	NEED TO LOGIN FOR FORM: Form(4, http://localhost/dams/doctor/change-password.php, post){('password', 'currentpassword', None, None): ('password', 'currentpassword', None, None), ('password', 'newpassword', None, None): ('password', 'newpassword', None, None), ('password', 'confirmpassword', None, None): ('password', 'confirmpassword', None, None), ('submit', None, None, None): ('submit', None, None, True)}
+2026-05-09:15:20:16	root	DEBUG	[Urls.py:120]	URLs from extract_urls {[get] http://localhost/dams/doctor/change-password.php#, [get] http://localhost/dams/doctor/appointment-bwdates.php, [get] http://localhost/dams/doctor/dashboard.php, [get] http://localhost/dams/doctor/change-password.php, [javascript] javascript:void(0), [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, [get] http://localhost/dams/doctor/approved-appointment.php, [get] http://localhost/dams/doctor/logout.php, [get] http://localhost/dams/doctor/search.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, [get] http://localhost/dams/doctor/cancelled-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php, [get] http://localhost/dams/doctor/change-password.php#menubar-customizer, [get] http://localhost/dams/doctor/change-password.php#navbar-customizer, [get] http://localhost/dams/doctor/profile.php, [get] http://localhost/dams/doctor/all-appointment.php}
+2026-05-09:15:20:17	root	INFO	[Functions.py:1003]	set_form_values got 0
+2026-05-09:15:20:17	root	INFO	[Functions.py:1021]	set_form_values returned 0
+2026-05-09:15:20:17	root	INFO	[Classes.py:1804]	Adding requests from URLs
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php# 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [javascript] javascript:void(0) 
+2026-05-09:15:20:17	root	INFO	[Functions.py:287]	Unsure about method javascript, will allow.
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [javascript] javascript:void(0), already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/logout.php 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	DEBUG	[Functions.py:337]	Different origins http://localhost/dams/doctor/dashboard.php and http://localhost/dams/doctor/logout.php
+2026-05-09:15:20:17	root	INFO	[Classes.py:1812]	Not allowed to add edge: [get] http://localhost/dams/doctor/change-password.php -(get None[False])-> [get] http://localhost/dams/doctor/logout.php
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php#menubar-customizer 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php#navbar-customizer 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1814]	Adding requests from froms
+2026-05-09:15:20:17	root	INFO	[Classes.py:1825]	Adding requests from events
+2026-05-09:15:20:17	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:17	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:17	root	INFO	[Classes.py:1835]	Not allowed to add edge: [get] http://localhost/dams/doctor/change-password.php -(event Event(onerror, /html/head/link[10])[False])-> [event] http://localhost/dams/doctor/change-password.php
+2026-05-09:15:20:17	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:17	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:20:17	root	INFO	[Classes.py:1837]	Adding requests from iframes
+2026-05-09:15:20:17	root	INFO	[Classes.py:1849]	Adding requests from ui_forms
+2026-05-09:15:20:17	root	INFO	[Classes.py:643]	(DBFUZZ)REC CRAWL DONE
+2026-05-09:15:20:17	root	INFO	[Functions.py:175]	Check edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/new-appointment.php
+2026-05-09:15:20:17	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:17	root	INFO	[Functions.py:221]	Follow edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/new-appointment.php
+2026-05-09:15:20:24	root	INFO	[Classes.py:1655]	Current url: http://localhost/dams/doctor/new-appointment.php
+2026-05-09:15:20:24	root	INFO	[Classes.py:1656]	Crawl (edge): [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/new-appointment.php
+2026-05-09:15:20:25	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 33}
+2026-05-09:15:20:25	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 24.299999999813735}
+2026-05-09:15:20:25	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 23.5}
+2026-05-09:15:20:25	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 32.40000000037253}
+2026-05-09:15:20:25	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 19.799999999813735}
+2026-05-09:15:20:25	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 31.899999999441206}
+2026-05-09:15:20:28	root	DEBUG	[Urls.py:120]	URLs from extract_urls {[get] http://localhost/dams/doctor/appointment-bwdates.php, [get] http://localhost/dams/doctor/new-appointment.php#menubar-customizer, [get] http://localhost/dams/doctor/dashboard.php, [get] http://localhost/dams/doctor/change-password.php, [javascript] javascript:void(0), [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, [get] http://localhost/dams/doctor/approved-appointment.php, [get] http://localhost/dams/doctor/logout.php, [get] http://localhost/dams/doctor/search.php, [get] http://localhost/dams/doctor/new-appointment.php#, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, [get] http://localhost/dams/doctor/cancelled-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php#navbar-customizer, [get] http://localhost/dams/doctor/profile.php, [get] http://localhost/dams/doctor/all-appointment.php}
+2026-05-09:15:20:28	root	INFO	[Functions.py:1003]	set_form_values got 0
+2026-05-09:15:20:28	root	INFO	[Functions.py:1021]	set_form_values returned 0
+2026-05-09:15:20:28	root	INFO	[Classes.py:1804]	Adding requests from URLs
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php#menubar-customizer 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [javascript] javascript:void(0) 
+2026-05-09:15:20:28	root	INFO	[Functions.py:287]	Unsure about method javascript, will allow.
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [javascript] javascript:void(0), already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/logout.php 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	DEBUG	[Functions.py:337]	Different origins http://localhost/dams/doctor/dashboard.php and http://localhost/dams/doctor/logout.php
+2026-05-09:15:20:28	root	INFO	[Classes.py:1812]	Not allowed to add edge: [get] http://localhost/dams/doctor/new-appointment.php -(get None[False])-> [get] http://localhost/dams/doctor/logout.php
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php# 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php#navbar-customizer 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1814]	Adding requests from froms
+2026-05-09:15:20:28	root	INFO	[Classes.py:1825]	Adding requests from events
+2026-05-09:15:20:28	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:28	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:28	root	INFO	[Classes.py:1835]	Not allowed to add edge: [get] http://localhost/dams/doctor/new-appointment.php -(event Event(onerror, /html/head/link[10])[False])-> [event] http://localhost/dams/doctor/new-appointment.php
+2026-05-09:15:20:28	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:28	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:20:28	root	INFO	[Classes.py:1837]	Adding requests from iframes
+2026-05-09:15:20:28	root	INFO	[Classes.py:1849]	Adding requests from ui_forms
+2026-05-09:15:20:28	root	INFO	[Classes.py:643]	(DBFUZZ)REC CRAWL DONE
+2026-05-09:15:20:28	root	INFO	[Functions.py:175]	Check edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/all-appointment.php
+2026-05-09:15:20:28	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:28	root	INFO	[Functions.py:221]	Follow edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/all-appointment.php
+2026-05-09:15:20:34	root	INFO	[Classes.py:1655]	Current url: http://localhost/dams/doctor/all-appointment.php
+2026-05-09:15:20:34	root	INFO	[Classes.py:1656]	Crawl (edge): [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/all-appointment.php
+2026-05-09:15:20:34	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 33}
+2026-05-09:15:20:36	root	DEBUG	[Urls.py:120]	URLs from extract_urls {[get] http://localhost/dams/doctor/appointment-bwdates.php, [get] http://localhost/dams/doctor/all-appointment.php#menubar-customizer, [get] http://localhost/dams/doctor/dashboard.php, [get] http://localhost/dams/doctor/change-password.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, [javascript] javascript:void(0), [get] http://localhost/dams/doctor/all-appointment.php#navbar-customizer, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=3&&aptid=485109480, [get] http://localhost/dams/doctor/approved-appointment.php, [get] http://localhost/dams/doctor/logout.php, [get] http://localhost/dams/doctor/search.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, [get] http://localhost/dams/doctor/all-appointment.php, [get] http://localhost/dams/doctor/cancelled-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php, [get] http://localhost/dams/doctor/profile.php, [get] http://localhost/dams/doctor/all-appointment.php#}
+2026-05-09:15:20:37	root	INFO	[Functions.py:1003]	set_form_values got 0
+2026-05-09:15:20:37	root	INFO	[Functions.py:1021]	set_form_values returned 0
+2026-05-09:15:20:37	root	INFO	[Classes.py:1804]	Adding requests from URLs
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php#menubar-customizer 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [javascript] javascript:void(0) 
+2026-05-09:15:20:37	root	INFO	[Functions.py:287]	Unsure about method javascript, will allow.
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [javascript] javascript:void(0), already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php#navbar-customizer 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=3&&aptid=485109480 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/logout.php 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	DEBUG	[Functions.py:337]	Different origins http://localhost/dams/doctor/dashboard.php and http://localhost/dams/doctor/logout.php
+2026-05-09:15:20:37	root	INFO	[Classes.py:1812]	Not allowed to add edge: [get] http://localhost/dams/doctor/all-appointment.php -(get None[False])-> [get] http://localhost/dams/doctor/logout.php
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php# 
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Classes.py:1814]	Adding requests from froms
+2026-05-09:15:20:37	root	INFO	[Classes.py:1825]	Adding requests from events
+2026-05-09:15:20:37	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:37	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:37	root	INFO	[Classes.py:1835]	Not allowed to add edge: [get] http://localhost/dams/doctor/all-appointment.php -(event Event(onerror, /html/head/link[10])[False])-> [event] http://localhost/dams/doctor/all-appointment.php
+2026-05-09:15:20:37	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:37	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:37	root	INFO	[Classes.py:1837]	Adding requests from iframes
+2026-05-09:15:20:37	root	INFO	[Classes.py:1849]	Adding requests from ui_forms
+2026-05-09:15:20:37	root	INFO	[Classes.py:643]	(DBFUZZ)REC CRAWL DONE
+2026-05-09:15:20:37	root	INFO	[Functions.py:175]	Check edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/appointment-bwdates.php
+2026-05-09:15:20:37	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:37	root	INFO	[Functions.py:221]	Follow edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/appointment-bwdates.php
+2026-05-09:15:20:46	root	INFO	[Classes.py:1655]	Current url: http://localhost/dams/doctor/appointment-bwdates.php
+2026-05-09:15:20:46	root	INFO	[Classes.py:1656]	Crawl (edge): [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/appointment-bwdates.php
+2026-05-09:15:20:46	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 33}
+2026-05-09:15:20:46	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 13.799999999813735}
+2026-05-09:15:20:46	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 5}
+2026-05-09:15:20:46	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 13.400000000372529}
+2026-05-09:15:20:46	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 14.199999999254942}
+2026-05-09:15:20:46	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 5.099999999627471}
+2026-05-09:15:20:47	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 32.5}
+2026-05-09:15:20:47	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 26.40000000037253}
+2026-05-09:15:20:50	root	DEBUG	[Urls.py:120]	URLs from extract_urls {[get] http://localhost/dams/doctor/appointment-bwdates.php, [get] http://localhost/dams/doctor/dashboard.php, [get] http://localhost/dams/doctor/change-password.php, [javascript] javascript:void(0), [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, [get] http://localhost/dams/doctor/appointment-bwdates.php#menubar-customizer, [get] http://localhost/dams/doctor/approved-appointment.php, [get] http://localhost/dams/doctor/logout.php, [get] http://localhost/dams/doctor/search.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, [get] http://localhost/dams/doctor/appointment-bwdates.php#, [get] http://localhost/dams/doctor/cancelled-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php, [get] http://localhost/dams/doctor/appointment-bwdates.php#navbar-customizer, [get] http://localhost/dams/doctor/profile.php, [get] http://localhost/dams/doctor/all-appointment.php}
+2026-05-09:15:20:50	root	INFO	[Functions.py:1003]	set_form_values got 0
+2026-05-09:15:20:50	root	INFO	[Functions.py:1021]	set_form_values returned 0
+2026-05-09:15:20:50	root	INFO	[Classes.py:1804]	Adding requests from URLs
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [javascript] javascript:void(0) 
+2026-05-09:15:20:50	root	INFO	[Functions.py:287]	Unsure about method javascript, will allow.
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [javascript] javascript:void(0), already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php#menubar-customizer 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/logout.php 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	DEBUG	[Functions.py:337]	Different origins http://localhost/dams/doctor/dashboard.php and http://localhost/dams/doctor/logout.php
+2026-05-09:15:20:50	root	INFO	[Classes.py:1812]	Not allowed to add edge: [get] http://localhost/dams/doctor/appointment-bwdates.php -(get None[False])-> [get] http://localhost/dams/doctor/logout.php
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php# 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php#navbar-customizer 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1814]	Adding requests from froms
+2026-05-09:15:20:50	root	INFO	[Classes.py:1825]	Adding requests from events
+2026-05-09:15:20:50	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:50	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:50	root	INFO	[Classes.py:1835]	Not allowed to add edge: [get] http://localhost/dams/doctor/appointment-bwdates.php -(event Event(onerror, /html/head/link[10])[False])-> [event] http://localhost/dams/doctor/appointment-bwdates.php
+2026-05-09:15:20:50	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:20:50	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:20:50	root	INFO	[Classes.py:1837]	Adding requests from iframes
+2026-05-09:15:20:50	root	INFO	[Classes.py:1849]	Adding requests from ui_forms
+2026-05-09:15:20:50	root	INFO	[Classes.py:643]	(DBFUZZ)REC CRAWL DONE
+2026-05-09:15:20:50	root	INFO	[Functions.py:175]	Check edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/approved-appointment.php
+2026-05-09:15:20:50	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:20:50	root	INFO	[Functions.py:221]	Follow edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/approved-appointment.php
+2026-05-09:15:21:01	root	INFO	[Classes.py:1655]	Current url: http://localhost/dams/doctor/approved-appointment.php
+2026-05-09:15:21:01	root	INFO	[Classes.py:1656]	Crawl (edge): [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/approved-appointment.php
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 33}
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 10.200000000186265}
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 4.099999999627471}
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 22.90000000037253}
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.40000000037252903}
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.20000000018626451}
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.20000000018626451}
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.20000000018626451}
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.20000000018626451}
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.20000000018626451}
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 24.700000000186265}
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 3.3999999994412065}
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 30.5}
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 26.90000000037253}
+2026-05-09:15:21:01	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 30.399999999441206}
+2026-05-09:15:21:04	root	DEBUG	[Urls.py:120]	URLs from extract_urls {[get] http://localhost/dams/doctor/appointment-bwdates.php, [get] http://localhost/dams/doctor/dashboard.php, [get] http://localhost/dams/doctor/change-password.php, [javascript] javascript:void(0), [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=3&&aptid=485109480, [get] http://localhost/dams/doctor/approved-appointment.php#navbar-customizer, [get] http://localhost/dams/doctor/approved-appointment.php, [get] http://localhost/dams/doctor/logout.php, [get] http://localhost/dams/doctor/search.php, [get] http://localhost/dams/doctor/approved-appointment.php#, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, [get] http://localhost/dams/doctor/cancelled-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php, [get] http://localhost/dams/doctor/approved-appointment.php#menubar-customizer, [get] http://localhost/dams/doctor/profile.php, [get] http://localhost/dams/doctor/all-appointment.php}
+2026-05-09:15:21:05	root	INFO	[Functions.py:1003]	set_form_values got 0
+2026-05-09:15:21:05	root	INFO	[Functions.py:1021]	set_form_values returned 0
+2026-05-09:15:21:05	root	INFO	[Classes.py:1804]	Adding requests from URLs
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [javascript] javascript:void(0) 
+2026-05-09:15:21:05	root	INFO	[Functions.py:287]	Unsure about method javascript, will allow.
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [javascript] javascript:void(0), already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=3&&aptid=485109480 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=3&&aptid=485109480, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php#navbar-customizer 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/logout.php 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	DEBUG	[Functions.py:337]	Different origins http://localhost/dams/doctor/dashboard.php and http://localhost/dams/doctor/logout.php
+2026-05-09:15:21:05	root	INFO	[Classes.py:1812]	Not allowed to add edge: [get] http://localhost/dams/doctor/approved-appointment.php -(get None[False])-> [get] http://localhost/dams/doctor/logout.php
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php# 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php#menubar-customizer 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1814]	Adding requests from froms
+2026-05-09:15:21:05	root	INFO	[Classes.py:1825]	Adding requests from events
+2026-05-09:15:21:05	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:21:05	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:21:05	root	INFO	[Classes.py:1835]	Not allowed to add edge: [get] http://localhost/dams/doctor/approved-appointment.php -(event Event(onerror, /html/head/link[10])[False])-> [event] http://localhost/dams/doctor/approved-appointment.php
+2026-05-09:15:21:05	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:21:05	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:21:05	root	INFO	[Classes.py:1837]	Adding requests from iframes
+2026-05-09:15:21:05	root	INFO	[Classes.py:1849]	Adding requests from ui_forms
+2026-05-09:15:21:05	root	INFO	[Classes.py:643]	(DBFUZZ)REC CRAWL DONE
+2026-05-09:15:21:05	root	INFO	[Functions.py:175]	Check edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/cancelled-appointment.php
+2026-05-09:15:21:05	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:05	root	INFO	[Functions.py:221]	Follow edge: [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/cancelled-appointment.php
+2026-05-09:15:21:18	root	INFO	[Classes.py:1655]	Current url: http://localhost/dams/doctor/cancelled-appointment.php
+2026-05-09:15:21:18	root	INFO	[Classes.py:1656]	Crawl (edge): [get] http://localhost/dams/doctor/dashboard.php -(get None[False])-> [get] http://localhost/dams/doctor/cancelled-appointment.php
+2026-05-09:15:21:19	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 33}
+2026-05-09:15:21:19	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.599999999627471}
+2026-05-09:15:21:19	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 11}
+2026-05-09:15:21:19	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 22.200000000186265}
+2026-05-09:15:21:19	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 9.400000000372529}
+2026-05-09:15:21:19	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 26.399999999441206}
+2026-05-09:15:21:22	root	DEBUG	[Urls.py:120]	URLs from extract_urls {[get] http://localhost/dams/doctor/appointment-bwdates.php, [get] http://localhost/dams/doctor/dashboard.php, [get] http://localhost/dams/doctor/change-password.php, [javascript] javascript:void(0), [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, [get] http://localhost/dams/doctor/cancelled-appointment.php#, [get] http://localhost/dams/doctor/approved-appointment.php, [get] http://localhost/dams/doctor/logout.php, [get] http://localhost/dams/doctor/search.php, [get] http://localhost/dams/doctor/cancelled-appointment.php#navbar-customizer, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, [get] http://localhost/dams/doctor/cancelled-appointment.php#menubar-customizer, [get] http://localhost/dams/doctor/cancelled-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php, [get] http://localhost/dams/doctor/profile.php, [get] http://localhost/dams/doctor/all-appointment.php}
+2026-05-09:15:21:22	root	INFO	[Functions.py:1003]	set_form_values got 0
+2026-05-09:15:21:22	root	INFO	[Functions.py:1021]	set_form_values returned 0
+2026-05-09:15:21:23	root	INFO	[Classes.py:1804]	Adding requests from URLs
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [javascript] javascript:void(0) 
+2026-05-09:15:21:23	root	INFO	[Functions.py:287]	Unsure about method javascript, will allow.
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [javascript] javascript:void(0), already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php# 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/logout.php 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	DEBUG	[Functions.py:337]	Different origins http://localhost/dams/doctor/dashboard.php and http://localhost/dams/doctor/logout.php
+2026-05-09:15:21:23	root	INFO	[Classes.py:1812]	Not allowed to add edge: [get] http://localhost/dams/doctor/cancelled-appointment.php -(get None[False])-> [get] http://localhost/dams/doctor/logout.php
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php#navbar-customizer 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php#menubar-customizer 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1814]	Adding requests from froms
+2026-05-09:15:21:23	root	INFO	[Classes.py:1825]	Adding requests from events
+2026-05-09:15:21:23	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:21:23	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:21:23	root	INFO	[Classes.py:1835]	Not allowed to add edge: [get] http://localhost/dams/doctor/cancelled-appointment.php -(event Event(onerror, /html/head/link[10])[False])-> [event] http://localhost/dams/doctor/cancelled-appointment.php
+2026-05-09:15:21:23	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:21:23	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:21:23	root	INFO	[Classes.py:1837]	Adding requests from iframes
+2026-05-09:15:21:23	root	INFO	[Classes.py:1849]	Adding requests from ui_forms
+2026-05-09:15:21:23	root	INFO	[Classes.py:643]	(DBFUZZ)REC CRAWL DONE
+2026-05-09:15:21:23	root	INFO	[Functions.py:175]	Check edge: [get] http://localhost/dams/doctor/search.php -(get None[False])-> [get] http://localhost/dams/doctor/search.php
+2026-05-09:15:21:23	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:21:23	root	INFO	[Functions.py:221]	Follow edge: [get] http://localhost/dams/doctor/search.php -(get None[False])-> [get] http://localhost/dams/doctor/search.php
+2026-05-09:15:22:50	root	INFO	[Classes.py:1655]	Current url: http://localhost/dams/doctor/search.php
+2026-05-09:15:22:50	root	INFO	[Classes.py:1656]	Crawl (edge): [get] http://localhost/dams/doctor/search.php -(get None[False])-> [get] http://localhost/dams/doctor/search.php
+2026-05-09:15:22:50	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 33}
+2026-05-09:15:22:53	root	DEBUG	[Urls.py:120]	URLs from extract_urls {[get] http://localhost/dams/doctor/appointment-bwdates.php, [get] http://localhost/dams/doctor/search.php#menubar-customizer, [get] http://localhost/dams/doctor/dashboard.php, [get] http://localhost/dams/doctor/change-password.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, [javascript] javascript:void(0), [get] http://localhost/dams/doctor/search.php#, [get] http://localhost/dams/doctor/search.php#navbar-customizer, [get] http://localhost/dams/doctor/approved-appointment.php, [get] http://localhost/dams/doctor/logout.php, [get] http://localhost/dams/doctor/search.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, [get] http://localhost/dams/doctor/cancelled-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php, [get] http://localhost/dams/doctor/profile.php, [get] http://localhost/dams/doctor/all-appointment.php}
+2026-05-09:15:22:53	root	INFO	[Functions.py:1003]	set_form_values got 0
+2026-05-09:15:22:53	root	INFO	[Functions.py:1021]	set_form_values returned 0
+2026-05-09:15:22:53	root	INFO	[Classes.py:1804]	Adding requests from URLs
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php#menubar-customizer 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php#menubar-customizer, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [javascript] javascript:void(0) 
+2026-05-09:15:22:53	root	INFO	[Functions.py:287]	Unsure about method javascript, will allow.
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [javascript] javascript:void(0), already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, javascript None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php#navbar-customizer 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php#navbar-customizer, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/logout.php 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	DEBUG	[Functions.py:337]	Different origins http://localhost/dams/doctor/dashboard.php and http://localhost/dams/doctor/logout.php
+2026-05-09:15:22:53	root	INFO	[Classes.py:1812]	Not allowed to add edge: [get] http://localhost/dams/doctor/search.php -(get None[False])-> [get] http://localhost/dams/doctor/logout.php
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:22:53	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1814]	Adding requests from froms
+2026-05-09:15:22:53	root	INFO	[Classes.py:1825]	Adding requests from events
+2026-05-09:15:22:53	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mouseover, /html/body/aside/div[2]/div/div[3]) (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:22:53	root	INFO	[Classes.py:1835]	Not allowed to add edge: [get] http://localhost/dams/doctor/search.php -(event Event(onerror, /html/head/link[10])[False])-> [event] http://localhost/dams/doctor/search.php
+2026-05-09:15:22:53	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mousedown, /html/body/aside/div[2]/div/div[2]) (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, //*[@id="submit"]) (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mouseover, /html/body/aside/div[2]/div/div) (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, //*[@id="menubar-toggle-btn"]) (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(DOMMouseScroll, /html/body/aside/div[2]/div/div) (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, /html/body/nav/div/button[2]) (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, /html/body/nav/div/button[3]) (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, //*[@id="menubar-fold-btn"]) (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:22:53	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:22:53	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mouseout, //*[@id="ui-datepicker-div"]) (True True False)
+2026-05-09:15:22:53	root	INFO	[Classes.py:1837]	Adding requests from iframes
+2026-05-09:15:22:53	root	INFO	[Classes.py:1849]	Adding requests from ui_forms
+2026-05-09:15:22:54	root	INFO	[Classes.py:643]	(DBFUZZ)REC CRAWL DONE
+2026-05-09:15:22:54	root	INFO	[Functions.py:175]	Check edge: [get] http://localhost/dams/doctor/search.php -(get None[False])-> [get] http://localhost/dams/doctor/search.php#
+2026-05-09:15:22:54	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:54	root	INFO	[Functions.py:221]	Follow edge: [get] http://localhost/dams/doctor/search.php -(get None[False])-> [get] http://localhost/dams/doctor/search.php#
+2026-05-09:15:22:54	root	INFO	[Classes.py:1655]	Current url: http://localhost/dams/doctor/search.php#
+2026-05-09:15:22:54	root	INFO	[Classes.py:1656]	Crawl (edge): [get] http://localhost/dams/doctor/search.php -(get None[False])-> [get] http://localhost/dams/doctor/search.php#
+2026-05-09:15:22:55	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 33}
+2026-05-09:15:22:56	root	DEBUG	[Urls.py:120]	URLs from extract_urls {[get] http://localhost/dams/doctor/appointment-bwdates.php, [get] http://localhost/dams/doctor/search.php#menubar-customizer, [get] http://localhost/dams/doctor/dashboard.php, [get] http://localhost/dams/doctor/change-password.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, [javascript] javascript:void(0), [get] http://localhost/dams/doctor/search.php#, [get] http://localhost/dams/doctor/search.php#navbar-customizer, [get] http://localhost/dams/doctor/approved-appointment.php, [get] http://localhost/dams/doctor/logout.php, [get] http://localhost/dams/doctor/search.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, [get] http://localhost/dams/doctor/cancelled-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php, [get] http://localhost/dams/doctor/profile.php, [get] http://localhost/dams/doctor/all-appointment.php}
+2026-05-09:15:22:57	root	INFO	[Functions.py:1003]	set_form_values got 0
+2026-05-09:15:22:57	root	INFO	[Functions.py:1021]	set_form_values returned 0
+2026-05-09:15:22:57	root	INFO	[Classes.py:1804]	Adding requests from URLs
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php#menubar-customizer 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php#menubar-customizer, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [javascript] javascript:void(0) 
+2026-05-09:15:22:57	root	INFO	[Functions.py:287]	Unsure about method javascript, will allow.
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [javascript] javascript:void(0), already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php#navbar-customizer 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php#navbar-customizer, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/logout.php 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	DEBUG	[Functions.py:337]	Different origins http://localhost/dams/doctor/dashboard.php and http://localhost/dams/doctor/logout.php
+2026-05-09:15:22:57	root	INFO	[Classes.py:1812]	Not allowed to add edge: [get] http://localhost/dams/doctor/search.php# -(get None[False])-> [get] http://localhost/dams/doctor/logout.php
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1814]	Adding requests from froms
+2026-05-09:15:22:57	root	INFO	[Classes.py:1825]	Adding requests from events
+2026-05-09:15:22:57	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:22:57	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:22:57	root	INFO	[Classes.py:1835]	Not allowed to add edge: [get] http://localhost/dams/doctor/search.php# -(event Event(onerror, /html/head/link[10])[False])-> [event] http://localhost/dams/doctor/search.php#
+2026-05-09:15:22:57	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:22:57	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:22:57	root	INFO	[Classes.py:1837]	Adding requests from iframes
+2026-05-09:15:22:57	root	INFO	[Classes.py:1849]	Adding requests from ui_forms
+2026-05-09:15:22:57	root	INFO	[Classes.py:643]	(DBFUZZ)REC CRAWL DONE
+2026-05-09:15:22:57	root	INFO	[Functions.py:175]	Check edge: [get] http://localhost/dams/doctor/search.php# -(get None[False])-> [get] http://localhost/dams/doctor/search.php
+2026-05-09:15:22:57	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:22:57	root	INFO	[Functions.py:221]	Follow edge: [get] http://localhost/dams/doctor/search.php# -(get None[False])-> [get] http://localhost/dams/doctor/search.php
+2026-05-09:15:23:06	root	INFO	[Classes.py:1655]	Current url: http://localhost/dams/doctor/search.php
+2026-05-09:15:23:06	root	INFO	[Classes.py:1656]	Crawl (edge): [get] http://localhost/dams/doctor/search.php# -(get None[False])-> [get] http://localhost/dams/doctor/search.php
+2026-05-09:15:23:06	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 33}
+2026-05-09:15:23:08	root	DEBUG	[Urls.py:120]	URLs from extract_urls {[get] http://localhost/dams/doctor/appointment-bwdates.php, [get] http://localhost/dams/doctor/search.php#menubar-customizer, [get] http://localhost/dams/doctor/dashboard.php, [get] http://localhost/dams/doctor/change-password.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, [javascript] javascript:void(0), [get] http://localhost/dams/doctor/search.php#, [get] http://localhost/dams/doctor/search.php#navbar-customizer, [get] http://localhost/dams/doctor/approved-appointment.php, [get] http://localhost/dams/doctor/logout.php, [get] http://localhost/dams/doctor/search.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, [get] http://localhost/dams/doctor/cancelled-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php, [get] http://localhost/dams/doctor/profile.php, [get] http://localhost/dams/doctor/all-appointment.php}
+2026-05-09:15:23:09	root	INFO	[Functions.py:1003]	set_form_values got 0
+2026-05-09:15:23:09	root	INFO	[Functions.py:1021]	set_form_values returned 0
+2026-05-09:15:23:09	root	INFO	[Classes.py:1804]	Adding requests from URLs
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php#menubar-customizer 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php#menubar-customizer, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [javascript] javascript:void(0) 
+2026-05-09:15:23:09	root	INFO	[Functions.py:287]	Unsure about method javascript, will allow.
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [javascript] javascript:void(0), already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, javascript None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php#navbar-customizer 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php#navbar-customizer, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/logout.php 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	DEBUG	[Functions.py:337]	Different origins http://localhost/dams/doctor/dashboard.php and http://localhost/dams/doctor/logout.php
+2026-05-09:15:23:09	root	INFO	[Classes.py:1812]	Not allowed to add edge: [get] http://localhost/dams/doctor/search.php -(get None[False])-> [get] http://localhost/dams/doctor/logout.php
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1814]	Adding requests from froms
+2026-05-09:15:23:09	root	INFO	[Classes.py:1825]	Adding requests from events
+2026-05-09:15:23:09	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mouseover, /html/body/aside/div[2]/div/div[3]) (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:23:09	root	INFO	[Classes.py:1835]	Not allowed to add edge: [get] http://localhost/dams/doctor/search.php -(event Event(onerror, /html/head/link[10])[False])-> [event] http://localhost/dams/doctor/search.php
+2026-05-09:15:23:09	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mousedown, /html/body/aside/div[2]/div/div[2]) (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, //*[@id="submit"]) (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mouseover, /html/body/aside/div[2]/div/div) (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, //*[@id="menubar-toggle-btn"]) (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(DOMMouseScroll, /html/body/aside/div[2]/div/div) (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, /html/body/nav/div/button[2]) (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, /html/body/nav/div/button[3]) (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, //*[@id="menubar-fold-btn"]) (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php 
+2026-05-09:15:23:09	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:23:09	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mouseout, //*[@id="ui-datepicker-div"]) (True True False)
+2026-05-09:15:23:09	root	INFO	[Classes.py:1837]	Adding requests from iframes
+2026-05-09:15:23:09	root	INFO	[Classes.py:1849]	Adding requests from ui_forms
+2026-05-09:15:23:09	root	INFO	[Classes.py:643]	(DBFUZZ)REC CRAWL DONE
+2026-05-09:15:23:09	root	INFO	[Functions.py:175]	Check edge: [get] http://localhost/dams/doctor/profile.php -(get None[False])-> [get] http://localhost/dams/doctor/profile.php
+2026-05-09:15:23:09	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:09	root	INFO	[Functions.py:221]	Follow edge: [get] http://localhost/dams/doctor/profile.php -(get None[False])-> [get] http://localhost/dams/doctor/profile.php
+2026-05-09:15:23:28	root	INFO	[Classes.py:1655]	Current url: http://localhost/dams/doctor/profile.php
+2026-05-09:15:23:28	root	INFO	[Classes.py:1656]	Crawl (edge): [get] http://localhost/dams/doctor/profile.php -(get None[False])-> [get] http://localhost/dams/doctor/profile.php
+2026-05-09:15:23:29	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 33}
+2026-05-09:15:23:29	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.900000000372529}
+2026-05-09:15:23:29	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 22.90000000037253}
+2026-05-09:15:23:29	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 32.10000000055879}
+2026-05-09:15:23:29	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 24.799999999813735}
+2026-05-09:15:23:29	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 0.20000000018626451}
+2026-05-09:15:23:29	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 20.90000000037253}
+2026-05-09:15:23:34	root	DEBUG	[Urls.py:120]	URLs from extract_urls {[get] http://localhost/dams/doctor/appointment-bwdates.php, [get] http://localhost/dams/doctor/profile.php#navbar-customizer, [get] http://localhost/dams/doctor/dashboard.php, [get] http://localhost/dams/doctor/change-password.php, [javascript] javascript:void(0), [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, [get] http://localhost/dams/doctor/approved-appointment.php, [get] http://localhost/dams/doctor/logout.php, [get] http://localhost/dams/doctor/search.php, [get] http://localhost/dams/doctor/profile.php#menubar-customizer, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, [get] http://localhost/dams/doctor/cancelled-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php, [get] http://localhost/dams/doctor/profile.php, [get] http://localhost/dams/doctor/profile.php#, [get] http://localhost/dams/doctor/all-appointment.php}
+2026-05-09:15:23:35	root	INFO	[Functions.py:1003]	set_form_values got 0
+2026-05-09:15:23:35	root	INFO	[Functions.py:1021]	set_form_values returned 0
+2026-05-09:15:23:35	root	INFO	[Classes.py:1804]	Adding requests from URLs
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php#navbar-customizer 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php#navbar-customizer, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [javascript] javascript:void(0) 
+2026-05-09:15:23:35	root	INFO	[Functions.py:287]	Unsure about method javascript, will allow.
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [javascript] javascript:void(0), already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, javascript None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/logout.php 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	DEBUG	[Functions.py:337]	Different origins http://localhost/dams/doctor/dashboard.php and http://localhost/dams/doctor/logout.php
+2026-05-09:15:23:35	root	INFO	[Classes.py:1812]	Not allowed to add edge: [get] http://localhost/dams/doctor/profile.php -(get None[False])-> [get] http://localhost/dams/doctor/logout.php
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php#menubar-customizer 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php#menubar-customizer, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php# 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php#, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:23:35	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1814]	Adding requests from froms
+2026-05-09:15:23:35	root	INFO	[Classes.py:1825]	Adding requests from events
+2026-05-09:15:23:35	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mouseover, /html/body/aside/div[2]/div/div[3]) (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:23:35	root	INFO	[Classes.py:1835]	Not allowed to add edge: [get] http://localhost/dams/doctor/profile.php -(event Event(onerror, /html/head/link[10])[False])-> [event] http://localhost/dams/doctor/profile.php
+2026-05-09:15:23:35	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mousedown, /html/body/aside/div[2]/div/div[2]) (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, /html/body/main/div/section/div/div/div/div/form/div[6]/div/button) (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mouseover, /html/body/aside/div[2]/div/div) (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, //*[@id="menubar-toggle-btn"]) (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(DOMMouseScroll, /html/body/aside/div[2]/div/div) (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, /html/body/nav/div/button[2]) (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, /html/body/nav/div/button[3]) (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, //*[@id="menubar-fold-btn"]) (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:23:35	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:23:35	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mouseout, //*[@id="ui-datepicker-div"]) (True True False)
+2026-05-09:15:23:35	root	INFO	[Classes.py:1837]	Adding requests from iframes
+2026-05-09:15:23:35	root	INFO	[Classes.py:1849]	Adding requests from ui_forms
+2026-05-09:15:23:36	root	INFO	[Classes.py:643]	(DBFUZZ)REC CRAWL DONE
+2026-05-09:15:23:36	root	INFO	[Functions.py:175]	Check edge: [get] http://localhost/dams/doctor/search.php# -(get None[False])-> [get] http://localhost/dams/doctor/search.php#
+2026-05-09:15:23:36	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:23:36	root	INFO	[Functions.py:221]	Follow edge: [get] http://localhost/dams/doctor/search.php# -(get None[False])-> [get] http://localhost/dams/doctor/search.php#
+2026-05-09:15:23:56	root	INFO	[Classes.py:1655]	Current url: http://localhost/dams/doctor/search.php#
+2026-05-09:15:23:56	root	INFO	[Classes.py:1656]	Crawl (edge): [get] http://localhost/dams/doctor/search.php# -(get None[False])-> [get] http://localhost/dams/doctor/search.php#
+2026-05-09:15:23:56	root	WARNING	[Classes.py:1754]	Could not execute javascript function in timeout {'function_id': 'e99ac5ae79be3cbce29cdfeeb5b1b545', 'function_name': 'c', 'time': 33}
+2026-05-09:15:24:29	root	DEBUG	[Urls.py:120]	URLs from extract_urls {[get] http://localhost/dams/doctor/appointment-bwdates.php, [get] http://localhost/dams/doctor/search.php#menubar-customizer, [get] http://localhost/dams/doctor/dashboard.php, [get] http://localhost/dams/doctor/change-password.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, [javascript] javascript:void(0), [get] http://localhost/dams/doctor/search.php#, [get] http://localhost/dams/doctor/search.php#navbar-customizer, [get] http://localhost/dams/doctor/approved-appointment.php, [get] http://localhost/dams/doctor/logout.php, [get] http://localhost/dams/doctor/search.php, [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, [get] http://localhost/dams/doctor/cancelled-appointment.php, [get] http://localhost/dams/doctor/new-appointment.php, [get] http://localhost/dams/doctor/profile.php, [get] http://localhost/dams/doctor/all-appointment.php}
+2026-05-09:15:24:30	root	INFO	[Functions.py:1003]	set_form_values got 0
+2026-05-09:15:24:30	root	INFO	[Functions.py:1021]	set_form_values returned 0
+2026-05-09:15:24:30	root	INFO	[Classes.py:1804]	Adding requests from URLs
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/appointment-bwdates.php 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/appointment-bwdates.php, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php#menubar-customizer 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php#menubar-customizer, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/dashboard.php 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/dashboard.php, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/change-password.php 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/change-password.php, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=4&&aptid=611388102, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [javascript] javascript:void(0) 
+2026-05-09:15:24:30	root	INFO	[Functions.py:287]	Unsure about method javascript, will allow.
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [javascript] javascript:void(0), already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, javascript None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php#navbar-customizer 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php#navbar-customizer, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/approved-appointment.php 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/approved-appointment.php, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/logout.php 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	DEBUG	[Functions.py:337]	Different origins http://localhost/dams/doctor/dashboard.php and http://localhost/dams/doctor/logout.php
+2026-05-09:15:24:30	root	INFO	[Classes.py:1812]	Not allowed to add edge: [get] http://localhost/dams/doctor/search.php# -(get None[False])-> [get] http://localhost/dams/doctor/logout.php
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/search.php 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/search.php, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/view-appointment-detail.php?editid=5&&aptid=607441873, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/cancelled-appointment.php 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/cancelled-appointment.php, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/new-appointment.php 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/new-appointment.php, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/profile.php 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/profile.php, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1806]	from URLs [get] http://localhost/dams/doctor/all-appointment.php 
+2026-05-09:15:24:30	root	WARNING	[Functions.py:325]	Using blacklisted terms!
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [get] http://localhost/dams/doctor/all-appointment.php, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, get None (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1814]	Adding requests from froms
+2026-05-09:15:24:30	root	INFO	[Classes.py:1825]	Adding requests from events
+2026-05-09:15:24:30	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mouseover, /html/body/aside/div[2]/div/div[3]) (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:24:30	root	INFO	[Classes.py:1835]	Not allowed to add edge: [get] http://localhost/dams/doctor/search.php# -(event Event(onerror, /html/head/link[10])[False])-> [event] http://localhost/dams/doctor/search.php#
+2026-05-09:15:24:30	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mousedown, /html/body/aside/div[2]/div/div[2]) (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, //*[@id="submit"]) (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mouseover, /html/body/aside/div[2]/div/div) (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, //*[@id="menubar-toggle-btn"]) (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(DOMMouseScroll, /html/body/aside/div[2]/div/div) (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, /html/body/nav/div/button[2]) (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, /html/body/nav/div/button[3]) (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(click, //*[@id="menubar-fold-btn"]) (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1828]	from events [event] http://localhost/dams/doctor/search.php# 
+2026-05-09:15:24:30	root	INFO	[Classes.py:135]	failed to add node [event] http://localhost/dams/doctor/search.php#, already added
+2026-05-09:15:24:30	root	WARNING	[Classes.py:157]	Failed to connect edge, event Event(mouseout, //*[@id="ui-datepicker-div"]) (True True False)
+2026-05-09:15:24:30	root	INFO	[Classes.py:1837]	Adding requests from iframes
+2026-05-09:15:24:30	root	INFO	[Classes.py:1849]	Adding requests from ui_forms
+2026-05-09:15:24:31	root	INFO	[Classes.py:643]	(DBFUZZ)REC CRAWL DONE
